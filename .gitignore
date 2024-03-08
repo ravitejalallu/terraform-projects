@@ -1,0 +1,17 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+
+# Ignore sensitive information
+*.pem
+*.key
+*.tfvars.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
